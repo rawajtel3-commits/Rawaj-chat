@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">شات رواج</string>
+    <string name="app_subtitle">كبائن التواصل المشفرة</string>
+
+    <!-- Navigation & Tabs -->
+    <string name="tab_chat">الدردشة المشفرة</string>
+    <string name="tab_audio">غرفة الصوت WebRTC</string>
+    <string name="tab_tasks">المهام الكبينية</string>
+    <string name="tab_security">خزنة التشفير</string>
+
+    <!-- Drawer -->
+    <string name="drawer_title">شات رواج</string>
+    <string name="drawer_subtitle">كبائن التواصل المشفرة P2P</string>
+    <string name="create_new_cabin">إنشاء كبينة جديدة</string>
+    <string name="search_cabins_placeholder">ابحث عن كبينة...</string>
+    <string name="cabin_security_level">مستوى الأمان: %s</string>
+    <string name="cabin_members_count">%d أعضاء</string>
+
+    <!-- Chat Tab -->
+    <string name="chat_cipher_mode_active">وضع التشفير مفعل (AES-256-GCM)</string>
+    <string name="chat_decrypted_mode_active">معاينة النص المفكوك</string>
+    <string name="type_message_hint">اكتب رسالتك المشفرة هنا...</string>
+    <string name="send">إرسال</string>
+    <string name="decrypt_view">معاينة النص الأصلي</string>
+    <string name="encrypt_view">إخفاء وتشفير</string>
+    <string name="record_audio">تسجيل صوتي مشفر</string>
+    <string name="audio_clip">مقطع صوتي مشفر</string>
+
+    <!-- Audio Pod Tab -->
+    <string name="audio_pod_title">غرف الصوت المشفرة (WebRTC)</string>
+    <string name="zero_server_storage">البث المباشر مشفر طرف لآخر (DTLS-SRTP P2P) ولا يتم تسجيله أو تخزينه على أي خادم</string>
+    <string name="join_audio_pod">الانضمام للغرفة الصوتية المشفرة</string>
+    <string name="leave_audio_pod">مغادرة الغرفة الصوتية</string>
+    <string name="mute_microphone">كتم الميكروفون</string>
+    <string name="unmute_microphone">إلغاء كتم الميكروفون</string>
+    <string name="connected_participants">المشاركون المتصلون (%d)</string>
+    <string name="currently_speaking">يتحدث الآن: %s</string>
+    <string name="mic_muted_status">ميكروفونك مكتوم</string>
+
+    <!-- Tasks Tab -->
+    <string name="tasks_title">مهام الكبينة المشفرة</string>
+    <string name="add_new_task">إضافة مهمة جديدة</string>
+    <string name="task_status_todo">قيد الانتظار</string>
+    <string name="task_status_in_progress">قيد التنفيذ</string>
+    <string name="task_status_done">مكتملة</string>
+
+    <!-- Security Vault Tab -->
+    <string name="security_vault_title">خزنة المفاتيح والتشفير</string>
+    <string name="active_key">المفتاح النشط: %s</string>
+    <string name="copy_key">نسخ المفتاح</string>
+    <string name="regenerate_key">توليد مفتاح جديد</string>
+    <string name="encryption_algorithm">خوارزمية التشفير: AES-256-GCM / Argon2id</string>
+
+    <!-- Dialogs & Buttons -->
+    <string name="cancel">إلغاء</string>
+    <string name="confirm">تأكيد</string>
+    <string name="save">حفظ</string>
+    <string name="close">إغلاق</string>
+
+    <!-- Biometric Lock -->
+    <string name="app_lock_title">شات رواج - القفل الحيوي</string>
+    <string name="app_lock_subtitle">التطبيق محمي بالبصمة / التعرف على الوجه والرمز السري</string>
+    <string name="unlock_with_biometrics">فتح القفل بالبصمة / الوجه</string>
+    <string name="use_pin">استخدام رمز PIN</string>
+    <string name="enter_pin_hint">أدخل رمز PIN (الافتراضي 1234)</string>
+    <string name="pin_incorrect">رمز PIN غير صحيح</string>
+    <string name="lock_app_now">قفل التطبيق الآن</string>
+    <string name="biometric_protection_active">الحماية الحيوية مفعلة</string>
+</resources>

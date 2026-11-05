@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Chat Rawaj</string>
+    <string name="app_subtitle">Encrypted Communication Cabins</string>
+
+    <!-- Navigation & Tabs -->
+    <string name="tab_chat">Encrypted Chat</string>
+    <string name="tab_audio">WebRTC Audio Pod</string>
+    <string name="tab_tasks">Cabin Tasks</string>
+    <string name="tab_security">Key Vault</string>
+
+    <!-- Drawer -->
+    <string name="drawer_title">Chat Rawaj</string>
+    <string name="drawer_subtitle">Encrypted P2P Communication Cabins</string>
+    <string name="create_new_cabin">Create New Cabin</string>
+    <string name="search_cabins_placeholder">Search cabin...</string>
+    <string name="cabin_security_level">Security Level: %s</string>
+    <string name="cabin_members_count">%d members</string>
+
+    <!-- Chat Tab -->
+    <string name="chat_cipher_mode_active">Encryption Active (AES-256-GCM)</string>
+    <string name="chat_decrypted_mode_active">Decrypted Preview Mode</string>
+    <string name="type_message_hint">Type your encrypted message...</string>
+    <string name="send">Send</string>
+    <string name="decrypt_view">Preview Decrypted</string>
+    <string name="encrypt_view">Encrypt &amp; Hide</string>
+    <string name="record_audio">Record Encrypted Audio</string>
+    <string name="audio_clip">Encrypted Audio Note</string>
+
+    <!-- Audio Pod Tab -->
+    <string name="audio_pod_title">Encrypted Audio Pods (WebRTC)</string>
+    <string name="zero_server_storage">Live stream is end-to-end encrypted (DTLS-SRTP P2P) with zero server storage guarantee</string>
+    <string name="join_audio_pod">Join Encrypted Voice Pod</string>
+    <string name="leave_audio_pod">Leave Voice Room</string>
+    <string name="mute_microphone">Mute Microphone</string>
+    <string name="unmute_microphone">Unmute Microphone</string>
+    <string name="connected_participants">Connected Participants (%d)</string>
+    <string name="currently_speaking">Currently Speaking: %s</string>
+    <string name="mic_muted_status">Your mic is muted</string>
+
+    <!-- Tasks Tab -->
+    <string name="tasks_title">Encrypted Cabin Tasks</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="task_status_todo">To Do</string>
+    <string name="task_status_in_progress">In Progress</string>
+    <string name="task_status_done">Completed</string>
+
+    <!-- Security Vault Tab -->
+    <string name="security_vault_title">Encryption Key Vault</string>
+    <string name="active_key">Active Key: %s</string>
+    <string name="copy_key">Copy Key</string>
+    <string name="regenerate_key">Generate New Key</string>
+    <string name="encryption_algorithm">Cipher Suite: AES-256-GCM / Argon2id</string>
+
+    <!-- Dialogs & Buttons -->
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+
+    <!-- Biometric Lock -->
+    <string name="app_lock_title">Chat Rawaj - Biometric Protection</string>
+    <string name="app_lock_subtitle">App is protected with Fingerprint / Face Unlock and PIN</string>
+    <string name="unlock_with_biometrics">Unlock with Biometrics / Face</string>
+    <string name="use_pin">Use PIN Code</string>
+    <string name="enter_pin_hint">Enter PIN code (default 1234)</string>
+    <string name="pin_incorrect">Incorrect PIN code</string>
+    <string name="lock_app_now">Lock App Now</string>
+    <string name="biometric_protection_active">Biometric Security Active</string>
+
+    <!-- FCM Push Notifications -->
+    <string name="fcm_push_title">Real-Time Push Notifications (Firebase Cloud Messaging)</string>
+    <string name="fcm_status_active">Live Push Notifications Active (FCM Connected)</string>
+    <string name="fcm_token_label">Device Push Registration Token (FCM Token):</string>
+    <string name="fcm_simulate_msg">Simulate Background Message Push</string>
+    <string name="fcm_simulate_task">Simulate Background Task Push</string>
+    <string name="fcm_copy_token">Copy FCM Token</string>
+</resources>
